@@ -1,0 +1,68 @@
+2026-05-22 10:25:23,318 - INFO - Starting login data driven tes
+2026-05-22 10:25:23,318 - INFO - Starting login data driven tes
+2026-05-22 10:25:23,725 - INFO - Username entered
+2026-05-22 10:25:23,725 - INFO - Username entered
+2026-05-22 10:25:23,744 - INFO - Password entered
+2026-05-22 10:25:23,744 - INFO - Password entered
+2026-05-22 10:25:26,859 - INFO - dashboard in URL verified successfully
+2026-05-22 10:25:26,859 - INFO - dashboard in URL verified successfully
+2026-05-22 10:25:30,241 - INFO - Starting page title test
+2026-05-22 10:25:30,241 - INFO - Starting page title test
+2026-05-22 10:25:30,249 - INFO - Page title verified successfully
+2026-05-22 10:25:30,249 - INFO - Page title verified successfully
+2026-05-22 10:25:33,343 - INFO - Starting page title test
+2026-05-22 10:25:33,343 - INFO - Starting page title test
+2026-05-22 10:25:35,210 - INFO - dashboard in URL verified successfully
+2026-05-22 10:25:35,210 - INFO - dashboard in URL verified successfully
+2026-05-22 10:25:41,893 - INFO - Starting page title test
+2026-05-22 10:25:41,893 - INFO - Starting page title test
+2026-05-22 10:25:42,284 - INFO - Enter username
+2026-05-22 10:25:42,284 - INFO - Enter username
+2026-05-22 10:25:42,302 - INFO - Enter password
+2026-05-22 10:25:42,302 - INFO - Enter password
+2026-05-22 10:25:42,322 - INFO - Click on login button
+2026-05-22 10:25:42,322 - INFO - Click on login button
+2026-05-22 10:25:45,370 - INFO - Click on pim menu
+2026-05-22 10:25:45,370 - INFO - Click on pim menu
+2026-05-22 10:25:46,339 - INFO - Click on add employee
+2026-05-22 10:25:46,339 - INFO - Click on add employee
+2026-05-22 10:25:46,702 - INFO - Enter employee first name
+2026-05-22 10:25:46,702 - INFO - Enter employee first name
+2026-05-22 10:25:46,719 - INFO - Enter employee last name
+2026-05-22 10:25:46,719 - INFO - Enter employee last name
+2026-05-22 10:25:46,755 - INFO - Enter employee id
+2026-05-22 10:25:46,755 - INFO - Enter employee id
+2026-05-22 10:25:47,090 - INFO - Click on submit button
+2026-05-22 10:25:47,090 - INFO - Click on submit button
+2026-05-22 10:25:54,606 - INFO - Validate viewPersonalDetails in url
+2026-05-22 10:25:54,606 - INFO - Validate viewPersonalDetails in url
+2026-05-22 10:25:58,298 - INFO - Click on pim menu
+2026-05-22 10:25:58,298 - INFO - Click on pim menu
+2026-05-22 10:25:58,632 - INFO - Search employee
+2026-05-22 10:25:58,632 - INFO - Search employee
+2026-05-22 10:25:58,675 - INFO - Click on submit button
+2026-05-22 10:25:58,675 - INFO - Click on submit button
+2026-05-22 10:26:01,692 - INFO - Verify employee
+2026-05-22 10:26:01,692 - INFO - Verify employee
+2026-05-22 10:26:01,798 - INFO - Delete employee
+2026-05-22 10:26:01,798 - INFO - Delete employee
+2026-05-22 10:26:06,499 - INFO - Logout from application
+2026-05-22 10:26:06,499 - INFO - Logout from application
+2026-05-22 10:26:06,505 - INFO - Validate login page after logout
+2026-05-22 10:26:06,505 - INFO - Validate login page after logout
+2026-05-22 10:26:14,483 - INFO - Starting login data driven tes
+2026-05-22 10:26:14,483 - INFO - Starting login data driven tes
+2026-05-22 10:26:14,871 - INFO - Username entered
+2026-05-22 10:26:14,871 - INFO - Username entered
+2026-05-22 10:26:14,886 - INFO - Password entered
+2026-05-22 10:26:14,886 - INFO - Password entered
+2026-05-22 10:26:17,941 - INFO - Invalid credentials displayed
+2026-05-22 10:26:17,941 - INFO - Invalid credentials displayed
+2026-05-22 10:26:20,590 - INFO - Starting login data driven tes
+2026-05-22 10:26:20,590 - INFO - Starting login data driven tes
+2026-05-22 10:26:21,444 - INFO - Username entered
+2026-05-22 10:26:21,444 - INFO - Username entered
+2026-05-22 10:26:21,463 - INFO - Password entered
+2026-05-22 10:26:21,463 - INFO - Password entered
+2026-05-22 10:26:24,508 - INFO - Invalid credentials displayed
+2026-05-22 10:26:24,508 - INFO - Invalid credentials displayed

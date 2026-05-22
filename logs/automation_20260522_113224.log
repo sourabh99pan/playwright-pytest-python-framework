@@ -1,0 +1,22 @@
+2026-05-22 11:32:29,956 - INFO - In test_003_failed_login_screenshot
+2026-05-22 11:32:29,957 - INFO - Starting page title test
+2026-05-22 11:32:33,368 - INFO - dashboard in URL verified successfully
+2026-05-22 11:32:45,522 - INFO - In test_004_employee_workflow
+2026-05-22 11:32:45,522 - INFO - Starting page title test
+2026-05-22 11:32:46,394 - INFO - Enter username
+2026-05-22 11:32:46,411 - INFO - Enter password
+2026-05-22 11:32:46,445 - INFO - Click on login button
+2026-05-22 11:32:55,317 - INFO - Click on pim menu
+2026-05-22 11:32:58,939 - INFO - Click on add employee
+2026-05-22 11:33:00,833 - INFO - Enter employee first name
+2026-05-22 11:33:00,850 - INFO - Enter employee last name
+2026-05-22 11:33:00,889 - INFO - Enter employee id
+2026-05-22 11:33:02,267 - INFO - Click on submit button
+2026-05-22 11:33:12,736 - INFO - Validate viewPersonalDetails in url
+2026-05-22 11:33:16,966 - INFO - Click on pim menu
+2026-05-22 11:33:17,300 - INFO - Search employee
+2026-05-22 11:33:17,342 - INFO - Click on submit button
+2026-05-22 11:33:20,364 - INFO - Verify employee
+2026-05-22 11:33:20,459 - INFO - Delete employee
+2026-05-22 11:33:25,600 - INFO - Logout from application
+2026-05-22 11:33:25,608 - INFO - Validate login page after logout
