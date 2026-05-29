@@ -34,4 +34,25 @@ jobs:
 
       - name: Run Tests
         run: |
-          pytest tests -v
+          pytest tests -v --html=report.html --self-contained-html
+
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pytest-report
+          path: report.html
+
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots
+          path: screenshots/
+
+      - name: Upload Logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logs
+          path: logs/
