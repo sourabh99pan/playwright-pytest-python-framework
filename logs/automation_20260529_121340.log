@@ -1,0 +1,19 @@
+2026-05-29 12:13:45,073 - INFO - In test_004_employee_workflow
+2026-05-29 12:13:45,073 - INFO - Starting page title test
+2026-05-29 12:13:45,434 - INFO - Enter username
+2026-05-29 12:13:45,448 - INFO - Enter password
+2026-05-29 12:13:45,556 - INFO - Click on login button
+2026-05-29 12:13:49,283 - INFO - Click on pim menu
+2026-05-29 12:13:52,492 - INFO - Click on add employee
+2026-05-29 12:13:52,878 - INFO - Enter employee first name
+2026-05-29 12:13:52,895 - INFO - Enter employee last name
+2026-05-29 12:13:52,930 - INFO - Enter employee id
+2026-05-29 12:14:02,842 - INFO - Click on submit button
+2026-05-29 12:14:05,852 - INFO - Validate viewPersonalDetails in url
+2026-05-29 12:14:11,893 - INFO - Click on pim menu
+2026-05-29 12:14:14,851 - INFO - Search employee
+2026-05-29 12:14:14,897 - INFO - Click on submit button
+2026-05-29 12:14:17,916 - INFO - Verify employee
+2026-05-29 12:14:18,024 - INFO - Delete employee
+2026-05-29 12:14:25,091 - INFO - Logout from application
+2026-05-29 12:14:25,132 - INFO - Validate login page after logout

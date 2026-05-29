@@ -1,0 +1,32 @@
+2026-05-29 11:54:59,355 - INFO - In test_001_login_data_driven
+2026-05-29 11:54:59,356 - INFO - Starting login data driven test
+2026-05-29 11:55:01,792 - INFO - Username entered
+2026-05-29 11:55:01,806 - INFO - Password entered
+2026-05-29 11:55:14,630 - INFO - dashboard in URL verified successfully
+2026-05-29 11:55:21,679 - INFO - In test_002_page_title
+2026-05-29 11:55:21,679 - INFO - Starting page title test
+2026-05-29 11:55:21,687 - INFO - Page title verified successfully
+2026-05-29 11:55:25,902 - INFO - In test_003_failed_login_screenshot
+2026-05-29 11:55:25,903 - INFO - Starting page title test
+2026-05-29 11:55:39,155 - INFO - dashboard in URL verified successfully
+2026-05-29 11:55:49,137 - INFO - In test_004_employee_workflow
+2026-05-29 11:55:49,137 - INFO - Starting page title test
+2026-05-29 11:55:50,501 - INFO - Enter username
+2026-05-29 11:55:50,517 - INFO - Enter password
+2026-05-29 11:55:50,538 - INFO - Click on login button
+2026-05-29 11:56:01,122 - INFO - Click on pim menu
+2026-05-29 11:56:04,723 - INFO - Click on add employee
+2026-05-29 11:56:06,614 - INFO - Enter employee first name
+2026-05-29 11:56:06,630 - INFO - Enter employee last name
+2026-05-29 11:56:06,662 - INFO - Enter employee id
+2026-05-29 11:56:09,076 - INFO - Click on submit button
+2026-05-29 11:56:45,011 - INFO - In test_001_login_data_driven
+2026-05-29 11:56:45,011 - INFO - Starting login data driven test
+2026-05-29 11:56:45,399 - INFO - Username entered
+2026-05-29 11:56:45,413 - INFO - Password entered
+2026-05-29 11:56:48,458 - INFO - Invalid credentials displayed
+2026-05-29 11:56:50,795 - INFO - In test_001_login_data_driven
+2026-05-29 11:56:50,795 - INFO - Starting login data driven test
+2026-05-29 11:56:51,163 - INFO - Username entered
+2026-05-29 11:56:51,179 - INFO - Password entered
+2026-05-29 11:56:54,234 - INFO - Invalid credentials displayed

@@ -1,0 +1,40 @@
+2026-05-29 12:14:51,943 - INFO - In test_001_login_data_driven
+2026-05-29 12:14:51,943 - INFO - Starting login data driven test
+2026-05-29 12:14:54,333 - INFO - Username entered
+2026-05-29 12:14:54,354 - INFO - Password entered
+2026-05-29 12:15:02,537 - INFO - dashboard in URL verified successfully
+2026-05-29 12:15:07,543 - INFO - In test_002_page_title
+2026-05-29 12:15:07,543 - INFO - Starting page title test
+2026-05-29 12:15:07,550 - INFO - Page title verified successfully
+2026-05-29 12:15:11,495 - INFO - In test_003_failed_login_screenshot
+2026-05-29 12:15:11,495 - INFO - Starting page title test
+2026-05-29 12:15:20,521 - INFO - dashboard in URL verified successfully
+2026-05-29 12:15:29,524 - INFO - In test_004_employee_workflow
+2026-05-29 12:15:29,524 - INFO - Starting page title test
+2026-05-29 12:15:31,399 - INFO - Enter username
+2026-05-29 12:15:31,411 - INFO - Enter password
+2026-05-29 12:15:31,434 - INFO - Click on login button
+2026-05-29 12:15:42,608 - INFO - Click on pim menu
+2026-05-29 12:15:46,384 - INFO - Click on add employee
+2026-05-29 12:15:47,255 - INFO - Enter employee first name
+2026-05-29 12:15:47,269 - INFO - Enter employee last name
+2026-05-29 12:15:47,296 - INFO - Enter employee id
+2026-05-29 12:16:04,461 - INFO - Click on submit button
+2026-05-29 12:16:07,483 - INFO - Validate viewPersonalDetails in url
+2026-05-29 12:16:12,426 - INFO - Click on pim menu
+2026-05-29 12:16:13,285 - INFO - Search employee
+2026-05-29 12:16:13,331 - INFO - Click on submit button
+2026-05-29 12:16:16,353 - INFO - Verify employee
+2026-05-29 12:16:16,475 - INFO - Delete employee
+2026-05-29 12:16:23,018 - INFO - Logout from application
+2026-05-29 12:16:23,031 - INFO - Validate login page after logout
+2026-05-29 12:16:32,807 - INFO - In test_001_login_data_driven
+2026-05-29 12:16:32,808 - INFO - Starting login data driven test
+2026-05-29 12:16:34,182 - INFO - Username entered
+2026-05-29 12:16:34,196 - INFO - Password entered
+2026-05-29 12:16:37,612 - INFO - Invalid credentials displayed
+2026-05-29 12:16:40,428 - INFO - In test_001_login_data_driven
+2026-05-29 12:16:40,429 - INFO - Starting login data driven test
+2026-05-29 12:16:42,312 - INFO - Username entered
+2026-05-29 12:16:42,324 - INFO - Password entered
+2026-05-29 12:16:47,678 - INFO - Invalid credentials displayed

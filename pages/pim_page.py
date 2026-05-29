@@ -54,10 +54,10 @@ class PimPage(BasePage):
 
     def verify_employee_name(self, employee_name):
 
-        return self.page.locator(
-            f"text={employee_name}"
+        return self.page.get_by_text(
+            employee_name,
+            exact=False
         ).is_visible()
-
 
     def select_employee_checkbox(self):
 

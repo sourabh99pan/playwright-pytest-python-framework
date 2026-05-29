@@ -1,5 +1,5 @@
 import pytest
-import time
+import random
 from pages.login_page import LoginPage
 from pages.pim_page import PimPage
 from conftest import employee_name
@@ -17,7 +17,7 @@ def test_004_employee_workflow(launch_application):
 
     logger.info("Starting page title test")
 
-    employee_id = str(int(time.time()))[-5:]
+    employee_id = str(random.randint(1000, 9999))
 
     login = LoginPage(page)
 
@@ -65,11 +65,15 @@ def test_004_employee_workflow(launch_application):
 
     logger.info("Enter employee id")
 
+    page.screenshot(path="before_save.png")
+
     pim.click_submit_button()
+
+    page.pause()
 
     logger.info("Click on submit button")
 
-    page.wait_for_url("**/viewPersonalDetails/**")
+    page.wait_for_load_state("networkidle")
 
     page.wait_for_timeout(3000)
 

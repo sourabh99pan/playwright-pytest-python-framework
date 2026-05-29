@@ -1,0 +1,11 @@
+2026-05-29 12:12:45,556 - INFO - In test_004_employee_workflow
+2026-05-29 12:12:45,557 - INFO - Starting page title test
+2026-05-29 12:12:46,424 - INFO - Enter username
+2026-05-29 12:12:46,446 - INFO - Enter password
+2026-05-29 12:12:47,532 - INFO - Click on login button
+2026-05-29 12:12:48,911 - INFO - Click on pim menu
+2026-05-29 12:12:49,926 - INFO - Click on add employee
+2026-05-29 12:12:50,288 - INFO - Enter employee first name
+2026-05-29 12:12:50,306 - INFO - Enter employee last name
+2026-05-29 12:12:50,353 - INFO - Enter employee id
+2026-05-29 12:12:58,553 - INFO - Click on submit button
