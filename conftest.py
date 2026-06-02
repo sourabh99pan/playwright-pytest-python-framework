@@ -1,6 +1,7 @@
 import pytest
 import time
-
+import os
+import datetime
 
 employee_name = "Sourabh" + str(int(time.time()))
 
@@ -8,7 +9,9 @@ employee_name = "Sourabh" + str(int(time.time()))
 @pytest.fixture
 def launch_application(page):
 
-    page.set_viewport_size({"width": 1920, "height": 1080})
+    page.set_viewport_size(
+        {"width": 1920, "height": 1080}
+    )
 
     page.goto(
         "https://opensource-demo.orangehrmlive.com/",
@@ -18,12 +21,11 @@ def launch_application(page):
 
     return page
 
-@pytest.hookimpl(hookwrapper=True)
 
+@pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
 
     outcome = yield
-
     report = outcome.get_result()
 
     if report.when == "call" and report.failed:
@@ -32,17 +34,31 @@ def pytest_runtest_makereport(item, call):
 
         if page:
 
-            page.wait_for_timeout(3000)
+            os.makedirs(
+                "screenshots",
+                exist_ok=True
+            )
 
-            screenshot_name = f"screenshots/{item.name}.png"
+            timestamp = datetime.datetime.now().strftime(
+                "%Y%m%d_%H%M%S"
+            )
+
+            screenshot_name = (
+                f"screenshots/{item.name}_{timestamp}.png"
+            )
 
             page.screenshot(
                 path=screenshot_name,
                 full_page=True
             )
 
-            print(f"Screenshot saved: {screenshot_name}")
+            print(
+                f"\nScreenshot saved: {screenshot_name}"
+            )
+
 
 def pytest_html_report_title(report):
 
-    report.title = "OrangeHRM Automation Report"
+    report.title = (
+        "OrangeHRM Automation Report"
+    )

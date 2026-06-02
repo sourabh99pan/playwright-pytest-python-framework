@@ -21,7 +21,7 @@ def test_001_login_data_driven(
 
     page = launch_application
 
-    logger.info("In test_001_login_data_driven")
+     
 
     logger.info("Starting login data driven test")
 

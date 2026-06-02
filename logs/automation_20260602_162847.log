@@ -1,0 +1,12 @@
+2026-06-02 16:28:53,262 - INFO - Starting login data driven test
+2026-06-02 16:28:53,690 - INFO - Username entered
+2026-06-02 16:28:53,708 - INFO - Password entered
+2026-06-02 16:28:56,773 - INFO - dashboard in URL verified successfully
+2026-06-02 16:28:59,250 - INFO - Starting login data driven test
+2026-06-02 16:28:59,663 - INFO - Username entered
+2026-06-02 16:28:59,694 - INFO - Password entered
+2026-06-02 16:29:02,782 - INFO - Invalid credentials displayed
+2026-06-02 16:29:05,845 - INFO - Starting login data driven test
+2026-06-02 16:29:06,264 - INFO - Username entered
+2026-06-02 16:29:06,282 - INFO - Password entered
+2026-06-02 16:29:10,194 - INFO - Invalid credentials displayed
