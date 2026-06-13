@@ -1,33 +1,76 @@
+import pytest
+
 from pages.login_page import LoginPage
 from pages.recruitment_page import RecruitmentPage
 from utils.logger import setup_logger
 
 logger = setup_logger()
 
-def test_search_candidate(launch_application):
+class TestRecruitmentModule:
 
-    page = launch_application
+    @pytest.mark.smoke
+    def test_recruitment_search_by_job_title(self, launch_application):
+        page = launch_application
+        login = LoginPage(page)
+        recruitment = RecruitmentPage(page)
 
-    login = LoginPage(page)
+        login.enter_username("Admin")
+        logger.info("Enter username")
+        login.enter_password("admin123")
+        logger.info("Enter password")
+        login.click_login()
+        logger.info("Click on login button")
 
-    login.enter_username("Admin")
+        recruitment.click_recruitment()
+        recruitment.wait_for_recruitment_page()
+        recruitment.select_job_title("Automaton Tester")
+        recruitment.click_search()
 
-    logger.info("Enter username")
+        page.wait_for_timeout(3000)
+        assert "recruitment" in page.url.lower()
+        assert recruitment.has_search_results() or recruitment.get_no_records_text() == "No Records Found"
 
-    login.enter_password("admin123")
+    @pytest.mark.regression
+    def test_recruitment_search_by_vacancy(self, launch_application):
+        page = launch_application
+        login = LoginPage(page)
+        recruitment = RecruitmentPage(page)
 
-    logger.info("Enter password")
+        login.enter_username("Admin")
+        logger.info("Enter username")
+        login.enter_password("admin123")
+        logger.info("Enter password")
+        login.click_login()
+        logger.info("Click on login button")
 
-    login.click_login()
+        recruitment.click_recruitment()
+        recruitment.wait_for_recruitment_page()
+        recruitment.select_vacancy("Payroll Administrator")
+        recruitment.click_search()
 
-    logger.info("Click on login button")
+        page.wait_for_timeout(3000)
+        assert "recruitment" in page.url.lower()
+        assert recruitment.has_search_results() or recruitment.get_no_records_text() == "No Records Found"
 
-    recruitment = RecruitmentPage(page)
+    @pytest.mark.regression
+    def test_recruitment_search_by_job_title_and_vacancy(self, launch_application):
+        page = launch_application
+        login = LoginPage(page)
+        recruitment = RecruitmentPage(page)
 
-    recruitment.click_recruitment()
+        login.enter_username("Admin")
+        logger.info("Enter username")
+        login.enter_password("admin123")
+        logger.info("Enter password")
+        login.click_login()
+        logger.info("Click on login button")
 
-    recruitment.select_job_title("Automaton Tester")
+        recruitment.click_recruitment()
+        recruitment.wait_for_recruitment_page()
+        recruitment.select_job_title("Automaton Tester")
+        recruitment.select_vacancy("Payroll Administrator")
+        recruitment.click_search()
 
-    recruitment.select_vacancy("Payroll Administrator")
-
-    recruitment.click_search()
+        page.wait_for_timeout(3000)
+        assert "recruitment" in page.url.lower()
+        assert recruitment.has_search_results() or recruitment.get_no_records_text() == "No Records Found"
