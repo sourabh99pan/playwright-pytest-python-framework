@@ -6,8 +6,10 @@ workflow_dispatch:
 jobs:
 test:
 
-```
 runs-on: ubuntu-latest
+
+env:
+  ENV: qa
 
 steps:
 
@@ -19,6 +21,10 @@ steps:
     with:
       python-version: "3.11"
 
+  - name: Verify Environment Variable
+    run: |
+      echo "ENV=$ENV"
+
   - name: Install Dependencies
     run: |
       pip install -r requirements.txt
@@ -28,8 +34,6 @@ steps:
       playwright install --with-deps
 
   - name: Execute QA Tests
-    env:
-      ENV: qa
     run: |
       pytest --env=qa
 
