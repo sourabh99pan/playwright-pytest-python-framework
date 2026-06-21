@@ -9,7 +9,7 @@ logger = setup_logger()
 class TestRecruitmentModule:
 
     @pytest.mark.smoke
-    def test_recruitment_search_by_job_title(self, launch_application):
+    def test_001_recruitment_search_by_job_title(self, launch_application):
         page = launch_application
         login = LoginPage(page)
         recruitment = RecruitmentPage(page)
@@ -53,7 +53,7 @@ class TestRecruitmentModule:
         assert recruitment.has_search_results() or recruitment.get_no_records_text() == "No Records Found"
 
     @pytest.mark.regression
-    def test_recruitment_search_by_job_title_and_vacancy(self, launch_application):
+    def test_003_recruitment_search_by_job_title_and_vacancy(self, launch_application):
         page = launch_application
         login = LoginPage(page)
         recruitment = RecruitmentPage(page)

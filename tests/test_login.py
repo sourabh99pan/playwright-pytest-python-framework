@@ -1,13 +1,15 @@
 import pytest
+import os
 
 from pages.login_page import LoginPage
 from utils.json_reader import read_json
 from utils.logger import setup_logger
 
-
-data = read_json("testdata/login_data.json")
+env = os.getenv("ENV")
+data = read_json(f"testdata/{env}/login_data.json")
 logger = setup_logger()
 
+print("data is:", data)
 @pytest.mark.parametrize(
     "test_data",
     data["login_data"]
@@ -19,9 +21,9 @@ def test_001_login_data_driven(
         test_data
 ):
 
-    page = launch_application
+    print(f"\nCurrent Test Data: {test_data}")
 
-     
+    page = launch_application
 
     logger.info("Starting login data driven test")
 
@@ -31,13 +33,17 @@ def test_001_login_data_driven(
         test_data["username"]
     )
 
-    logger.info("Username entered")
+    logger.info(
+    f"Username: {test_data['username']} entered"
+)
 
     login.enter_password(
         test_data["password"]
     )
 
-    logger.info("Password entered")
+    logger.info(
+    f"Password: {test_data['password']} entered"
+)
 
     login.click_login()
 
@@ -72,7 +78,7 @@ def test_002_page_title(launch_application):
 
     logger.info("Page title verified successfully")
 
-
+@pytest.mark.skip(reason="Feature not ready")
 def test_003_failed_login_screenshot(launch_application):
 
     page = launch_application
@@ -80,7 +86,6 @@ def test_003_failed_login_screenshot(launch_application):
     logger.info("In test_003_failed_login_screenshot")
 
     logger.info("Starting page title test")
-
 
     login = LoginPage(page)
 

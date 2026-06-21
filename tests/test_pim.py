@@ -69,7 +69,7 @@ def test_004_employee_workflow(launch_application):
 
     pim.click_submit_button()
 
-    page.pause()
+    #page.pause()
 
     logger.info("Click on submit button")
 
