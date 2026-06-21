@@ -1,45 +1,46 @@
 name: QA Automation
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-test:
+  test:
+    runs-on: ubuntu-latest
 
-runs-on: ubuntu-latest
+    env:
+      ENV: qa
 
-env:
-  ENV: qa
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-  - name: Checkout Repository
-    uses: actions/checkout@v4
+      - name: Verify Environment Variable
+        run: |
+          echo "ENV=$ENV"
 
-  - name: Setup Python
-    uses: actions/setup-python@v5
-    with:
-      python-version: "3.11"
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-  - name: Verify Environment Variable
-    run: |
-      echo "ENV=$ENV"
+      - name: Install Playwright Browsers
+        run: |
+          playwright install --with-deps
 
-  - name: Install Dependencies
-    run: |
-      pip install -r requirements.txt
+      # FIXED: Added explicit path directory matching your upload block
+      - name: Execute QA Tests
+        run: |
+          pytest --env=qa --html=reports/report.html --self-contained-html
 
-  - name: Install Playwright Browsers
-    run: |
-      playwright install --with-deps
-
-  - name: Execute QA Tests
-    run: |
-      pytest --env=qa
-
-  - name: Upload HTML Report
-    if: always()
-    uses: actions/upload-artifact@v4
-    with:
-      name: QA-Test-Report
-      path: reports/
+      # FIXED: Will now successfully find the reports/ folder created above
+      - name: Upload HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: QA-Test-Report
+          path: reports/
