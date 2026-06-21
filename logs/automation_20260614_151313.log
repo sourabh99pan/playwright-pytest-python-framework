@@ -1,0 +1,44 @@
+2026-06-14 15:13:22,257 - INFO - In test_003_failed_login_screenshot
+2026-06-14 15:13:22,258 - INFO - Starting page title test
+2026-06-14 15:13:26,436 - INFO - In test_002_page_title
+2026-06-14 15:13:26,439 - INFO - Starting page title test
+2026-06-14 15:13:27,094 - INFO - Enter username
+2026-06-14 15:13:27,227 - INFO - Enter password
+2026-06-14 15:13:27,608 - INFO - Page title verified successfully
+2026-06-14 15:13:29,990 - INFO - Click on login button
+2026-06-14 15:13:32,081 - INFO - dashboard in URL verified successfully
+2026-06-14 15:13:32,572 - INFO - Starting login data driven test
+2026-06-14 15:13:34,533 - INFO - Username entered
+2026-06-14 15:13:36,252 - INFO - In test_004_employee_workflow
+2026-06-14 15:13:36,256 - INFO - Starting page title test
+2026-06-14 15:13:36,872 - INFO - Enter username
+2026-06-14 15:13:37,623 - INFO - Password entered
+2026-06-14 15:13:42,370 - INFO - Enter username
+2026-06-14 15:13:42,455 - INFO - Enter password
+2026-06-14 15:13:42,661 - INFO - Enter username
+2026-06-14 15:13:42,877 - INFO - Enter password
+2026-06-14 15:13:43,805 - INFO - Click on login button
+2026-06-14 15:13:44,374 - INFO - Click on login button
+2026-06-14 15:13:44,840 - INFO - dashboard in URL verified successfully
+2026-06-14 15:13:48,392 - INFO - Enter password
+2026-06-14 15:13:49,638 - INFO - Click on login button
+2026-06-14 15:13:50,347 - INFO - Click on pim menu
+2026-06-14 15:13:54,277 - INFO - Click on add employee
+2026-06-14 15:13:57,000 - INFO - Enter employee first name
+2026-06-14 15:13:57,424 - INFO - Enter employee last name
+2026-06-14 15:13:57,611 - INFO - Enter employee id
+2026-06-14 15:14:56,637 - INFO - In test_003_failed_login_screenshot
+2026-06-14 15:14:56,638 - INFO - Starting page title test
+2026-06-14 15:14:58,419 - INFO - dashboard in URL verified successfully
+2026-06-14 15:15:06,143 - INFO - In test_003_failed_login_screenshot
+2026-06-14 15:15:06,144 - INFO - Starting page title test
+2026-06-14 15:15:08,058 - INFO - dashboard in URL verified successfully
+2026-06-14 15:19:32,387 - INFO - Click on submit button
+2026-06-14 15:19:35,409 - INFO - Validate viewPersonalDetails in url
+2026-06-14 15:19:39,501 - INFO - Click on pim menu
+2026-06-14 15:19:40,368 - INFO - Search employee
+2026-06-14 15:19:40,760 - INFO - Click on submit button
+2026-06-14 15:19:43,787 - INFO - Verify employee
+2026-06-14 15:19:44,133 - INFO - Delete employee
+2026-06-14 15:19:48,302 - INFO - Logout from application
+2026-06-14 15:19:48,318 - INFO - Validate login page after logout

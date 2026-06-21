@@ -1,0 +1,42 @@
+2026-06-14 12:55:41,236 - INFO - Enter username
+2026-06-14 12:55:41,356 - INFO - Enter password
+2026-06-14 12:55:41,479 - INFO - In test_004_employee_workflow
+2026-06-14 12:55:41,480 - INFO - Starting page title test
+2026-06-14 12:55:41,957 - INFO - Enter username
+2026-06-14 12:55:41,979 - INFO - Enter password
+2026-06-14 12:55:42,093 - INFO - Enter username
+2026-06-14 12:55:42,117 - INFO - Enter password
+2026-06-14 12:55:42,495 - INFO - Click on login button
+2026-06-14 12:55:42,745 - INFO - Enter username
+2026-06-14 12:55:42,780 - INFO - Enter password
+2026-06-14 12:55:43,020 - INFO - Click on login button
+2026-06-14 12:55:43,171 - INFO - Click on login button
+2026-06-14 12:55:44,634 - INFO - Click on login button
+2026-06-14 12:55:47,765 - INFO - Click on pim menu
+2026-06-14 12:55:49,902 - INFO - Click on add employee
+2026-06-14 12:55:50,844 - INFO - Enter employee first name
+2026-06-14 12:55:50,857 - INFO - Enter employee last name
+2026-06-14 12:55:50,891 - INFO - Enter employee id
+2026-06-14 12:55:51,110 - INFO - Click on submit button
+2026-06-14 12:55:59,388 - INFO - In test_004_employee_workflow
+2026-06-14 12:55:59,389 - INFO - Starting page title test
+2026-06-14 12:56:00,249 - INFO - Enter username
+2026-06-14 12:56:00,261 - INFO - Enter password
+2026-06-14 12:56:00,303 - INFO - Click on login button
+2026-06-14 12:56:03,219 - INFO - Click on pim menu
+2026-06-14 12:56:04,144 - INFO - Click on add employee
+2026-06-14 12:56:04,561 - INFO - Enter employee first name
+2026-06-14 12:56:04,573 - INFO - Enter employee last name
+2026-06-14 12:56:04,597 - INFO - Enter employee id
+2026-06-14 12:56:04,945 - INFO - Click on submit button
+2026-06-14 12:56:17,187 - INFO - In test_004_employee_workflow
+2026-06-14 12:56:17,187 - INFO - Starting page title test
+2026-06-14 12:56:17,559 - INFO - Enter username
+2026-06-14 12:56:17,571 - INFO - Enter password
+2026-06-14 12:56:17,619 - INFO - Click on login button
+2026-06-14 12:56:19,695 - INFO - Click on pim menu
+2026-06-14 12:56:20,706 - INFO - Click on add employee
+2026-06-14 12:56:21,106 - INFO - Enter employee first name
+2026-06-14 12:56:21,119 - INFO - Enter employee last name
+2026-06-14 12:56:21,142 - INFO - Enter employee id
+2026-06-14 12:56:21,490 - INFO - Click on submit button

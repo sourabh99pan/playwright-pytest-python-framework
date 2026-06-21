@@ -1,0 +1,7 @@
+2026-06-20 19:54:00,278 - INFO - Starting login data driven test
+2026-06-20 19:54:00,646 - INFO - Username: Admin entered
+2026-06-20 19:54:00,668 - INFO - Password: admin123 entered
+2026-06-20 19:54:04,848 - INFO - dashboard in URL verified successfully
+2026-06-20 19:54:08,274 - INFO - In test_002_page_title
+2026-06-20 19:54:08,274 - INFO - Starting page title test
+2026-06-20 19:54:08,289 - INFO - Page title verified successfully

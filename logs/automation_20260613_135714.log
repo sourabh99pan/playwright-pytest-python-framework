@@ -1,0 +1,43 @@
+2026-06-13 13:57:26,147 - INFO - Logged in and navigated to Dashboard
+2026-06-13 13:57:30,323 - INFO - Logged in and navigated to Dashboard
+2026-06-13 13:57:34,125 - INFO - Logged in and navigated to Dashboard
+2026-06-13 13:57:38,808 - INFO - Logged in and navigated to Dashboard
+2026-06-13 13:57:44,259 - INFO - Logged in and navigated to Dashboard
+2026-06-13 13:57:48,223 - INFO - Starting login data driven test
+2026-06-13 13:57:48,598 - INFO - Username entered
+2026-06-13 13:57:48,609 - INFO - Password entered
+2026-06-13 13:57:51,672 - INFO - dashboard in URL verified successfully
+2026-06-13 13:57:53,979 - INFO - In test_002_page_title
+2026-06-13 13:57:53,979 - INFO - Starting page title test
+2026-06-13 13:57:53,987 - INFO - Page title verified successfully
+2026-06-13 13:57:56,348 - INFO - In test_003_failed_login_screenshot
+2026-06-13 13:57:56,349 - INFO - Starting page title test
+2026-06-13 13:57:57,721 - INFO - dashboard in URL verified successfully
+2026-06-13 13:58:00,903 - INFO - In test_004_employee_workflow
+2026-06-13 13:58:00,904 - INFO - Starting page title test
+2026-06-13 13:58:01,281 - INFO - Enter username
+2026-06-13 13:58:01,293 - INFO - Enter password
+2026-06-13 13:58:01,337 - INFO - Click on login button
+2026-06-13 13:58:03,834 - INFO - Click on pim menu
+2026-06-13 13:58:04,941 - INFO - Click on add employee
+2026-06-13 13:58:05,323 - INFO - Enter employee first name
+2026-06-13 13:58:05,335 - INFO - Enter employee last name
+2026-06-13 13:58:05,360 - INFO - Enter employee id
+2026-06-13 13:58:05,708 - INFO - Click on submit button
+2026-06-13 13:58:12,106 - INFO - Enter username
+2026-06-13 13:58:12,117 - INFO - Enter password
+2026-06-13 13:58:12,152 - INFO - Click on login button
+2026-06-13 13:58:48,529 - INFO - Enter username
+2026-06-13 13:58:48,540 - INFO - Enter password
+2026-06-13 13:58:48,584 - INFO - Click on login button
+2026-06-13 13:58:59,290 - INFO - Enter username
+2026-06-13 13:58:59,302 - INFO - Enter password
+2026-06-13 13:58:59,334 - INFO - Click on login button
+2026-06-13 13:59:36,230 - INFO - Starting login data driven test
+2026-06-13 13:59:36,603 - INFO - Username entered
+2026-06-13 13:59:36,615 - INFO - Password entered
+2026-06-13 13:59:39,674 - INFO - Invalid credentials displayed
+2026-06-13 13:59:42,319 - INFO - Starting login data driven test
+2026-06-13 13:59:42,719 - INFO - Username entered
+2026-06-13 13:59:42,731 - INFO - Password entered
+2026-06-13 13:59:45,789 - INFO - Invalid credentials displayed

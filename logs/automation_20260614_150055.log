@@ -1,0 +1,51 @@
+2026-06-14 15:01:04,535 - INFO - Enter username
+2026-06-14 15:01:04,549 - INFO - Enter password
+2026-06-14 15:01:04,589 - INFO - Click on login button
+2026-06-14 15:01:06,306 - INFO - Enter username
+2026-06-14 15:01:06,339 - INFO - Enter password
+2026-06-14 15:01:06,398 - INFO - In test_004_employee_workflow
+2026-06-14 15:01:06,399 - INFO - Starting page title test
+2026-06-14 15:01:06,411 - INFO - Click on login button
+2026-06-14 15:01:06,851 - INFO - Enter username
+2026-06-14 15:01:06,858 - INFO - In test_003_failed_login_screenshot
+2026-06-14 15:01:06,858 - INFO - Starting page title test
+2026-06-14 15:01:06,870 - INFO - Enter password
+2026-06-14 15:01:06,924 - INFO - Click on login button
+2026-06-14 15:01:08,449 - INFO - Enter username
+2026-06-14 15:01:08,464 - INFO - Enter password
+2026-06-14 15:01:08,505 - INFO - Click on login button
+2026-06-14 15:01:10,367 - INFO - dashboard in URL verified successfully
+2026-06-14 15:01:13,543 - INFO - Click on pim menu
+2026-06-14 15:01:16,749 - INFO - Click on add employee
+2026-06-14 15:01:17,627 - INFO - Enter employee first name
+2026-06-14 15:01:17,641 - INFO - Enter employee last name
+2026-06-14 15:01:17,663 - INFO - Enter employee id
+2026-06-14 15:01:17,990 - INFO - In test_003_failed_login_screenshot
+2026-06-14 15:01:17,991 - INFO - Starting page title test
+2026-06-14 15:01:18,758 - INFO - Click on submit button
+2026-06-14 15:01:19,909 - INFO - dashboard in URL verified successfully
+2026-06-14 15:01:25,365 - INFO - In test_003_failed_login_screenshot
+2026-06-14 15:01:25,365 - INFO - Starting page title test
+2026-06-14 15:01:26,777 - INFO - dashboard in URL verified successfully
+2026-06-14 15:01:29,001 - INFO - In test_004_employee_workflow
+2026-06-14 15:01:29,001 - INFO - Starting page title test
+2026-06-14 15:01:29,406 - INFO - Enter username
+2026-06-14 15:01:29,419 - INFO - Enter password
+2026-06-14 15:01:29,451 - INFO - Click on login button
+2026-06-14 15:01:31,831 - INFO - Click on pim menu
+2026-06-14 15:01:32,699 - INFO - Click on add employee
+2026-06-14 15:01:33,594 - INFO - Enter employee first name
+2026-06-14 15:01:33,609 - INFO - Enter employee last name
+2026-06-14 15:01:33,636 - INFO - Enter employee id
+2026-06-14 15:01:33,806 - INFO - Click on submit button
+2026-06-14 15:01:42,201 - INFO - In test_004_employee_workflow
+2026-06-14 15:01:42,201 - INFO - Starting page title test
+2026-06-14 15:01:42,574 - INFO - Enter username
+2026-06-14 15:01:42,586 - INFO - Enter password
+2026-06-14 15:01:42,634 - INFO - Click on login button
+2026-06-14 15:01:45,021 - INFO - Click on pim menu
+2026-06-14 15:01:46,138 - INFO - Click on add employee
+2026-06-14 15:01:46,515 - INFO - Enter employee first name
+2026-06-14 15:01:46,527 - INFO - Enter employee last name
+2026-06-14 15:01:46,551 - INFO - Enter employee id
+2026-06-14 15:01:46,906 - INFO - Click on submit button

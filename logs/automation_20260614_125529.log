@@ -1,0 +1,18 @@
+2026-06-14 12:55:40,705 - INFO - In test_002_page_title
+2026-06-14 12:55:40,706 - INFO - Starting page title test
+2026-06-14 12:55:40,728 - INFO - Starting login data driven test
+2026-06-14 12:55:40,732 - INFO - Page title verified successfully
+2026-06-14 12:55:41,237 - INFO - Username entered
+2026-06-14 12:55:41,303 - INFO - Password entered
+2026-06-14 12:55:42,097 - INFO - In test_003_failed_login_screenshot
+2026-06-14 12:55:42,097 - INFO - Starting page title test
+2026-06-14 12:55:43,533 - INFO - Logged in and navigated to Dashboard
+2026-06-14 12:55:44,571 - INFO - dashboard in URL verified successfully
+2026-06-14 12:55:45,584 - INFO - dashboard in URL verified successfully
+2026-06-14 12:55:46,599 - INFO - Logged in and navigated to Dashboard
+2026-06-14 12:55:52,346 - INFO - In test_003_failed_login_screenshot
+2026-06-14 12:55:52,347 - INFO - Starting page title test
+2026-06-14 12:55:53,715 - INFO - dashboard in URL verified successfully
+2026-06-14 12:55:59,019 - INFO - In test_003_failed_login_screenshot
+2026-06-14 12:55:59,020 - INFO - Starting page title test
+2026-06-14 12:56:00,669 - INFO - dashboard in URL verified successfully

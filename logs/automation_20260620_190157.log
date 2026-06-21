@@ -1,0 +1,7 @@
+2026-06-20 19:02:04,443 - INFO - In test_002_page_title
+2026-06-20 19:02:04,443 - INFO - Starting page title test
+2026-06-20 19:02:04,485 - INFO - Page title verified successfully
+2026-06-20 19:02:04,529 - INFO - Starting login data driven test
+2026-06-20 19:02:05,286 - INFO - Username entered
+2026-06-20 19:02:05,629 - INFO - Password entered
+2026-06-20 19:02:10,263 - INFO - dashboard in URL verified successfully

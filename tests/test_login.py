@@ -6,6 +6,9 @@ from utils.json_reader import read_json
 from utils.logger import setup_logger
 
 env = os.getenv("ENV")
+
+print("ENV VALUE =", env)
+
 data = read_json(f"testdata/{env}/login_data.json")
 logger = setup_logger()
 

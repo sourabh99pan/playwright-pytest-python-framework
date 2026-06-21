@@ -1,0 +1,17 @@
+2026-06-20 18:52:18,693 - INFO - In test_002_page_title
+2026-06-20 18:52:18,693 - INFO - Starting page title test
+2026-06-20 18:52:18,768 - INFO - Page title verified successfully
+2026-06-20 18:52:18,905 - INFO - Starting login data driven test
+2026-06-20 18:52:19,198 - INFO - In test_003_failed_login_screenshot
+2026-06-20 18:52:19,198 - INFO - Starting page title test
+2026-06-20 18:52:19,876 - INFO - Username entered
+2026-06-20 18:52:19,938 - INFO - Password entered
+2026-06-20 18:52:20,290 - INFO - Starting login data driven test
+2026-06-20 18:52:20,890 - INFO - Username entered
+2026-06-20 18:52:20,958 - INFO - Password entered
+2026-06-20 18:52:21,345 - INFO - dashboard in URL verified successfully
+2026-06-20 18:52:23,798 - INFO - Invalid credentials displayed
+2026-06-20 18:52:24,190 - INFO - dashboard in URL verified successfully
+2026-06-20 18:53:32,374 - INFO - In test_003_failed_login_screenshot
+2026-06-20 18:53:32,374 - INFO - Starting page title test
+2026-06-20 18:53:33,738 - INFO - dashboard in URL verified successfully

@@ -1,0 +1,15 @@
+2026-06-20 19:25:32,391 - INFO - Starting login data driven test
+2026-06-20 19:25:32,764 - INFO - Username: Admin entered
+2026-06-20 19:25:32,778 - INFO - Password: admin123 entered
+2026-06-20 19:25:36,816 - INFO - dashboard in URL verified successfully
+2026-06-20 19:25:40,164 - INFO - In test_002_page_title
+2026-06-20 19:25:40,165 - INFO - Starting page title test
+2026-06-20 19:25:40,174 - INFO - Page title verified successfully
+2026-06-20 19:25:44,808 - INFO - Starting login data driven test
+2026-06-20 19:25:47,217 - INFO - Username: Admin456 entered
+2026-06-20 19:25:47,249 - INFO - Password: wrongpassword entered
+2026-06-20 19:25:51,236 - INFO - Invalid credentials displayed
+2026-06-20 19:25:55,165 - INFO - Starting login data driven test
+2026-06-20 19:25:55,543 - INFO - Username: Admin entered
+2026-06-20 19:25:55,556 - INFO - Password: wrong123 entered
+2026-06-20 19:25:58,755 - INFO - Invalid credentials displayed

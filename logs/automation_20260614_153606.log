@@ -1,0 +1,19 @@
+2026-06-14 15:36:19,937 - INFO - Logged in and navigated to Dashboard
+2026-06-14 15:36:21,168 - INFO - Starting login data driven test
+2026-06-14 15:36:22,789 - INFO - Username entered
+2026-06-14 15:36:22,940 - INFO - Password entered
+2026-06-14 15:36:24,532 - INFO - Logged in and navigated to Dashboard
+2026-06-14 15:36:24,836 - INFO - Logged in and navigated to Dashboard
+2026-06-14 15:36:25,412 - INFO - Logged in and navigated to Dashboard
+2026-06-14 15:36:29,424 - INFO - dashboard in URL verified successfully
+2026-06-14 15:36:30,272 - INFO - Logged in and navigated to Dashboard
+2026-06-14 15:37:05,542 - INFO - Starting login data driven test
+2026-06-14 15:37:06,060 - INFO - Username entered
+2026-06-14 15:37:06,110 - INFO - Password entered
+2026-06-14 15:37:09,421 - INFO - Invalid credentials displayed
+2026-06-14 15:37:09,500 - INFO - Logged in and navigated to Dashboard
+2026-06-14 15:37:19,022 - INFO - Logged in and navigated to Dashboard
+2026-06-14 15:37:23,353 - INFO - Starting login data driven test
+2026-06-14 15:37:23,749 - INFO - Username entered
+2026-06-14 15:37:23,766 - INFO - Password entered
+2026-06-14 15:37:27,612 - INFO - Invalid credentials displayed
