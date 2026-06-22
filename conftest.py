@@ -10,7 +10,6 @@ from playwright.sync_api import sync_playwright
 employee_name = "Sourabh" + str(int(time.time()))
 
 def pytest_addoption(parser):
-
     parser.addoption(
         "--env",
         action="store",
@@ -20,23 +19,25 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="session")
 def config(request):
-
     env = request.config.getoption("--env")
-
     with open(f"config/{env}.json") as file:
         return json.load(file)
 
+
 @pytest.fixture
-def launch_application(playwright, browser_name, request,config):
+def launch_application(playwright, browser_name, request, config):
     """Launch browser using pytest-playwright fixtures and return a `page`.
 
     Relies on the `playwright` and `browser_name` fixtures provided by
     `pytest-playwright` to parametrize browsers (chromium, firefox, webkit).
     """
 
-    # Allow running in headed mode by setting environment variable `HEADLESS=false`
-    headless_env = os.getenv("HEADLESS", "true").lower()
-    headless = True if headless_env in ("1", "true", "yes") else False
+    # Check if the --headed flag was used in the terminal execution command
+    is_headed_passed = request.config.getoption("--headed", default=False)
+    
+    # If --headed is passed, headless mode must be False; otherwise, default to True
+    headless = False if is_headed_passed else True
+
     browser = getattr(playwright, browser_name).launch(headless=headless)
     context = browser.new_context(
         viewport={"width": 1920, "height": 1080},
@@ -84,20 +85,16 @@ def launch_application(playwright, browser_name, request,config):
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
-
     outcome = yield
     report = outcome.get_result()
 
     if report.when == "call" and report.failed:
-
         # try to obtain page from common fixture names
         page = item.funcargs.get("page") or item.funcargs.get("launch_application")
 
         if page:
             os.makedirs("screenshots", exist_ok=True)
-
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-
             screenshot_name = f"screenshots/{item.name}_{timestamp}.png"
 
             try:
@@ -108,7 +105,4 @@ def pytest_runtest_makereport(item, call):
 
 
 def pytest_html_report_title(report):
-
-    report.title = (
-        "OrangeHRM Automation Report"
-    )
+    report.title = "OrangeHRM Automation Report"
