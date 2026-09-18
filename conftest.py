@@ -7,6 +7,8 @@ import re
 import json
 from playwright.sync_api import sync_playwright
 
+from utils.db_utils import DBUtils
+
 employee_name = "Sourabh" + str(int(time.time()))
 
 def pytest_addoption(parser):
@@ -77,12 +79,19 @@ def launch_application(playwright, browser_name, request, config):
                 if original_path.exists() and original_path != pathlib.Path(filename):
                     try:
                         original_path.unlink()
-                    except Exception:
+                    except Exception: 
                         pass
             except Exception:
                 pass
 
+@pytest.fixture(scope="session")
+def db(config):
+    db_utils = DBUtils(config)
 
+    yield db_utils
+
+    db_utils.close()
+    
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
@@ -95,7 +104,7 @@ def pytest_runtest_makereport(item, call):
         if page:
             os.makedirs("screenshots", exist_ok=True)
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            screenshot_name = f"screenshots/{item.name}_{timestamp}.png"
+            screenshot_name = f"screenshots/{item.name}_{timestamp}.png "
 
             try:
                 page.screenshot(path=screenshot_name, full_page=True)

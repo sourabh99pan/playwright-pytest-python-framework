@@ -16,7 +16,7 @@ print("data is:", data)
 @pytest.mark.parametrize(
     "test_data",
     data["login_data"]
-)
+) 
 
 @pytest.mark.smoke
 def test_001_login_data_driven(

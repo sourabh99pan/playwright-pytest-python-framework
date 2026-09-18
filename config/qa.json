@@ -1,4 +1,9 @@
 {
     "base_url": "https://opensource-demo.orangehrmlive.com/",
-    "timeout": 60000
+    "timeout": 60000,
+    "host": "localhost",
+    "user": "root",
+    "password": "Hike$1234",
+    "database": "sakila",
+    "port": 3306
 }
